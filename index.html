@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Github API V2</title>
+    <script src="https://cdn.tailwindcss.com" defer></script>
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <h1 class="text-center text-xl font-bold mb-4 font-sans">My Repository</h1>
+
+    <div class="w-full text-center">
+        <input class="appearance-none bg-transparent border-b w-1/2 mx-auto text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none mt-4 mb-8 pl-4 border-blue-400 " id="input" type="search" placeholder="Search user">
+    </div>
+   
+    <br /><br />
+    <div
+      id="app"
+      class="max-w-screen p-4 rounded grid md:grid-cols-4 sm:gap-4 gap-8 grid-cols-2 content-center"
+    ></div>
+  </body>
+</html>
